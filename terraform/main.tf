@@ -1,4 +1,4 @@
-# Create a Resource Group if it doesn’t exist
+# VERSION 2 Create a Resource Group if it doesn’t exist
 resource "azurerm_resource_group" "tfexample" {
   name     = "RG_1"
   location = "West Europe"
